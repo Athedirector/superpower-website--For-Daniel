@@ -1,20 +1,24 @@
 body{
-    margin: 10px;
     padding: 0;
-    background-color: black;
+    background-color:white;
     height: 1px;
 }
 
 h1{
-    color: white;
-    text-align: center;
-    display: flex;
-    padding: 0;
-    margin: 0;
+    color:midnightblue;
+    text-align: left;
+    flex-wrap: wrap;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.Letter-underline{
+    text-decoration: underline;
 }
 
 p{
-    color: lightblue;
+    color: black;
+    margin-bottom: 20px;
 }
 
 .button{
@@ -24,30 +28,32 @@ p{
 }
 
 img{
-    width: 50%;
+    width: 100%;
     display: flex;
-    margin-bottom: 5px;
+    margin: 0,5px,5px,5px;
     border: 2px solid lightblue;
 }
 
 h2,h3{
-    color: lightblue;
+    color: black;
     min-width: 110px;
-    padding: 5px;
+    padding: 5px,0,0,0;
+    margin: 0;
+
 }
 
 .logo{
-    width: 100px;
-    height: 10vh;
+    width: 250PX;
+    height: 300PX;
     display: flex;
-    float: left;
-    padding-right: 190px;
+    margin: 10px;
+
 }
 
 .left-sidebar, .main-sidebar, .right-sidebar{
     width: 300px;
     height: 100vh;
-    max-height: fit-content;
+    height: fit-content;
     background-color: green;
     display: inline-flex;
     padding: 10px;
