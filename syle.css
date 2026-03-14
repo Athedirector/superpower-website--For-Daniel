@@ -4,16 +4,27 @@ body{
     height: 1px;
 }
 
-h1{
-    color:midnightblue;
-    text-align: left;
-    flex-wrap: wrap;
-    margin: 10px;
-    text-decoration: underline;
+.first-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr
 }
+
+ul{
+    align-items:grid
+}
+
 
 .Letter-underline{
     text-decoration: underline;
+}
+
+
+h1{
+    color:midnightblue;
+    margin: 10px;
+    text-decoration: underline;
+    padding-top: 20px;
 }
 
 p{
@@ -43,9 +54,10 @@ h2,h3{
 }
 
 .logo{
-    width: 250PX;
-    height: 300PX;
-    display: flex;
+    width: 50px;
+    height: 70px;
+    display: grid;
+    grid-template-rows: 1fr ;
     margin: 10px;
 
 }
